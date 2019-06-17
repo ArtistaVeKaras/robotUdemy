@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.6.2 on win32)" generated="20190612 11:18:57.259" rpa="false">
+<suite id="s1" name="Featureone" source="C:\development\robot-scripts\firstproject\Tests\Product1\APIONE\Featureone.robot">
+<test id="s1-t1" name="Logging a simple message!!">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>this is only a test</arg>
+</arguments>
+<msg timestamp="20190612 11:18:57.470" level="INFO">this is only a test</msg>
+<status status="PASS" starttime="20190612 11:18:57.469" endtime="20190612 11:18:57.470"></status>
+</kw>
+<status status="PASS" starttime="20190612 11:18:57.469" endtime="20190612 11:18:57.470" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20190612 11:18:57.261" endtime="20190612 11:18:57.472"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Featureone">Featureone</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

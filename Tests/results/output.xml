@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.6.2 on win32)" generated="20190613 09:35:41.761" rpa="false">
+<suite id="s1" name="Gherkin" source="C:\development\robot-scripts\firstproject\Tests\gherkin.robot">
+<test id="s1-t1" name="user attempts to log in">
+<kw name="Given">
+<arguments>
+<arg>the is not logged in</arg>
+</arguments>
+<msg timestamp="20190613 09:35:41.791" level="FAIL">No keyword with name 'Given' found.</msg>
+<status status="FAIL" starttime="20190613 09:35:41.791" endtime="20190613 09:35:41.791"></status>
+</kw>
+<status status="FAIL" starttime="20190613 09:35:41.790" endtime="20190613 09:35:41.792" critical="yes">No keyword with name 'Given' found.</status>
+</test>
+<status status="FAIL" starttime="20190613 09:35:41.762" endtime="20190613 09:35:41.793"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Gherkin">Gherkin</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
