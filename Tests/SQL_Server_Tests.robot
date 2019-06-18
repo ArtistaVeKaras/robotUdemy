@@ -5,7 +5,6 @@ Test Setup    SQL_Server.Connect
 Test Teardown  SQL_Server.Disconnect
 
 #ways to run the script:
-#robot -d results tests/SQL_Server_Tests.robot
 #robot -d results tests
 
 *** Variables ***
@@ -19,9 +18,10 @@ Inset a Record
    SQL_Server.Inset Record
    SQL_Server.Verify New Record Added
 
-verify Insert Contains Correct Input Data
+Verify Insert Contains Correct Input Data
     [Tags]  SqlServerDB
     SQL_Server.Verify Last Record
+
 
 Log All Rows
     SQL_Server.Log All Rows

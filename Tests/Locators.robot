@@ -19,6 +19,9 @@ User should be able to search product on Amazon website
     sleep  3s
     Amazon.Click button To Search
     sleep  3s
-    Amazon.Click Image
+    ${ResulstsInfo} =  Amazon.Click Image
+    Log  ${ResulstsInfo}
     verify page load
+
+
 
