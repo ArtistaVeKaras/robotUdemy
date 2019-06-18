@@ -1,21 +1,21 @@
 *** Settings ***
-Library   DatabaseLibrary
-Library   Strings
-Library   Dialogs
+Library  DatabaseLibrary
+Library  Strings
+Library  Dialogs
 
 *** Variables ***
-${DB_NAME} =  root@localhost
-${DB_USER_NAME} =  MariaDB
+${DB_NAME}  root@localhost
+${DB_USER_NAME}  MariaDB
 ${DB_PASSWORD}
-${DB_HOST} =  127.0.0.1
-${DB_PORT}  = 3306
+${DB_HOST}  127.0.0.1
+${DB_PORT}      3306
 ${PREVIOUS_ROW_COUNT}
 ${FIRST_NAME}
 
 *** Keywords ***
 Connect
 #connecting to the database
-   get connection  pymssql ${DB_NAME}  ${DB_USER_NAME}  ${DB_PASSWORD}  ${DB_HOST}  ${DB_PORT}  ${PREVIOUS_ROW_COUNT}
+   get connection  pymssql ${DB_NAME} ${DB_USER_NAME} ${DB_PASSWORD} ${DB_HOST} ${DB_PORT} ${PREVIOUS_ROW_COUNT}
 
 Save Current Row Count
     #REMEMBER DEMO ITEMS DOES NOT  EXIST IN YOUR TABLE MAKE SURE YOU MODIFIE THIS
@@ -31,20 +31,19 @@ Get Input Data
 
 Inset Record
    #execute SQL script  inputs/SQL/insert.txt
-    Execute SQL String  INSERT INTO DemoItems (ItemName, FirstName)  VALUES ('New Item: ' + CAST(GetDate() as VARCHAR(50)), '${FIRST_NAME}');
+    excute SQL String  INSERT INTO DemoItems (ItemName, FirstName)  VALUES ('New Item: ' + CAST(GetDate() as VARCHAR(50))),
 
 Verify New Record Added
     ${new_row_count} =  save current row count  SELECT * FROM DemoItems;
     LOG  ${new_row_count}
-    should be equal as numbers  ${new_row_count}  ${PREVIOUS_ROW_COUNT + 1}
 
 Verify Last Record
-    ${queryResults} =  Query  SELECT TOP 1 * ROM DemoItems  ORDER BY ItemId DESC;
+    ${queryResults} =  Query  SELECT TOP 1 * ROM DemoItems  ORDER BY ItemId DESC
     should be equal as strings  ${queryResults[0][2]} ${FIRST_NAME}
     LOG   ${queryREsults}[0][2]
 
 Log All Rows
-    ${queryResults} =  save current row count  SELECT * FROM  DemoItems ORDER BY ItemID;
+    ${queryResults} =  save current row count  SELECT * FROM  DemoItems ORDER BY ItemID
     log many  ${queryResults}
 
 Disconnect

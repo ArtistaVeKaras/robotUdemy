@@ -1,492 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.1.2 (Python 3.6.2 on win32)" generated="20190617 15:48:03.942" rpa="false">
-<suite id="s1" name="SQL Server Tests" source="C:\development\robot-scripts\firstproject_Main_clone\tests\SQL_Server_Tests.robot">
-<test id="s1-t1" name="Inset a Record">
-<kw name="Connect" library="SQL_Server" type="setup">
-<kw name="get connection">
+<robot generator="Robot 3.1.2 (Python 3.7.3 on win32)" generated="20190618 11:34:21.852" rpa="false">
+<suite id="s1" name="Locators" source="C:\development\robot-scripts\firstproject_Main_clone\tests\locators.robot">
+<test id="s1-t1" name="Do Some Custom Thing">
+<kw name="Begin Web test" library="Common" type="setup">
+<kw name="open browser">
 <arguments>
-<arg>pymssql ${DB_NAME}</arg>
-<arg>${DB_USER_NAME}</arg>
-<arg>${DB_PASSWORD}</arg>
-<arg>${DB_HOST}</arg>
-<arg>${DB_PORT}</arg>
-<arg>${PREVIOUS_ROW_COUNT}</arg>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
 </arguments>
-<msg timestamp="20190617 15:48:04.000" level="FAIL">No keyword with name 'get connection' found.</msg>
-<status status="FAIL" starttime="20190617 15:48:04.000" endtime="20190617 15:48:04.000"></status>
+<msg timestamp="20190618 11:34:21.901" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20190618 11:34:21.901" endtime="20190618 11:34:21.901"></status>
 </kw>
-<status status="FAIL" starttime="20190617 15:48:03.998" endtime="20190617 15:48:04.000"></status>
+<status status="FAIL" starttime="20190618 11:34:21.899" endtime="20190618 11:34:21.901"></status>
 </kw>
-<kw name="Disconnect" library="SQL_Server" type="teardown">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<msg timestamp="20190617 15:48:04.011" level="FAIL">Maximum limit of started keywords exceeded.</msg>
-<status status="FAIL" starttime="20190617 15:48:04.011" endtime="20190617 15:48:04.011"></status>
+<kw name="End Web test" library="Common" type="teardown">
+<kw name="close browser">
+<msg timestamp="20190618 11:34:21.903" level="FAIL">No keyword with name 'close browser' found.</msg>
+<status status="FAIL" starttime="20190618 11:34:21.903" endtime="20190618 11:34:21.903"></status>
 </kw>
-<status status="FAIL" starttime="20190617 15:48:04.010" endtime="20190617 15:48:04.011"></status>
+<status status="FAIL" starttime="20190618 11:34:21.902" endtime="20190618 11:34:21.904">No keyword with name 'close browser' found.</status>
 </kw>
-<status status="FAIL" starttime="20190617 15:48:04.010" endtime="20190617 15:48:04.011"></status>
+<status status="FAIL" starttime="20190618 11:34:21.899" endtime="20190618 11:34:21.904" critical="yes">Setup failed:
+No keyword with name 'open browser' found.
+
+Also teardown failed:
+No keyword with name 'close browser' found.</status>
+</test>
+<test id="s1-t2" name="User should be able to search product on Amazon website">
+<kw name="Begin Web test" library="Common" type="setup">
+<kw name="open browser">
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20190618 11:34:21.908" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20190618 11:34:21.908" endtime="20190618 11:34:21.908"></status>
 </kw>
-<status status="FAIL" starttime="20190617 15:48:04.010" endtime="20190617 15:48:04.011"></status>
+<status status="FAIL" starttime="20190618 11:34:21.907" endtime="20190618 11:34:21.908"></status>
 </kw>
-<status status="FAIL" starttime="20190617 15:48:04.010" endtime="20190617 15:48:04.011"></status>
+<kw name="End Web test" library="Common" type="teardown">
+<kw name="close browser">
+<msg timestamp="20190618 11:34:21.910" level="FAIL">No keyword with name 'close browser' found.</msg>
+<status status="FAIL" starttime="20190618 11:34:21.910" endtime="20190618 11:34:21.910"></status>
 </kw>
-<status status="FAIL" starttime="20190617 15:48:04.010" endtime="20190617 15:48:04.011"></status>
+<status status="FAIL" starttime="20190618 11:34:21.909" endtime="20190618 11:34:21.911">No keyword with name 'close browser' found.</status>
 </kw>
-<status status="FAIL" starttime="20190617 15:48:04.009" endtime="20190617 15:48:04.012"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.009" endtime="20190617 15:48:04.012"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.009" endtime="20190617 15:48:04.012"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.009" endtime="20190617 15:48:04.012"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.008" endtime="20190617 15:48:04.012"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.008" endtime="20190617 15:48:04.012"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.008" endtime="20190617 15:48:04.012"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.008" endtime="20190617 15:48:04.012"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.008" endtime="20190617 15:48:04.012"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.007" endtime="20190617 15:48:04.012"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.007" endtime="20190617 15:48:04.012"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.007" endtime="20190617 15:48:04.013"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.006" endtime="20190617 15:48:04.013"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.006" endtime="20190617 15:48:04.013"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.006" endtime="20190617 15:48:04.013"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.006" endtime="20190617 15:48:04.013"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.005" endtime="20190617 15:48:04.013"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.005" endtime="20190617 15:48:04.014"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.005" endtime="20190617 15:48:04.014"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.005" endtime="20190617 15:48:04.014"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.005" endtime="20190617 15:48:04.014"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.004" endtime="20190617 15:48:04.014"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.004" endtime="20190617 15:48:04.015"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.004" endtime="20190617 15:48:04.016"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.004" endtime="20190617 15:48:04.016"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.003" endtime="20190617 15:48:04.016"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.003" endtime="20190617 15:48:04.016"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.003" endtime="20190617 15:48:04.017"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.003" endtime="20190617 15:48:04.017"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.002" endtime="20190617 15:48:04.017"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.002" endtime="20190617 15:48:04.018"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.002" endtime="20190617 15:48:04.018"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.001" endtime="20190617 15:48:04.019"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.001" endtime="20190617 15:48:04.020"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.001" endtime="20190617 15:48:04.020"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.001" endtime="20190617 15:48:04.020">Maximum limit of started keywords exceeded.</status>
-</kw>
+<doc>This is smoke test...!</doc>
 <tags>
-<tag>SQLServerDB</tag>
+<tag>Smoke</tag>
 </tags>
-<status status="FAIL" starttime="20190617 15:48:03.997" endtime="20190617 15:48:04.020" critical="yes">Setup failed:
-No keyword with name 'get connection' found.
+<status status="FAIL" starttime="20190618 11:34:21.906" endtime="20190618 11:34:21.911" critical="yes">Setup failed:
+No keyword with name 'open browser' found.
 
 Also teardown failed:
-Maximum limit of started keywords exceeded.</status>
+No keyword with name 'close browser' found.</status>
 </test>
-<test id="s1-t2" name="Verify Insert Contains Correct Input Data">
-<kw name="Connect" library="SQL_Server" type="setup">
-<kw name="get connection">
-<arguments>
-<arg>pymssql ${DB_NAME}</arg>
-<arg>${DB_USER_NAME}</arg>
-<arg>${DB_PASSWORD}</arg>
-<arg>${DB_HOST}</arg>
-<arg>${DB_PORT}</arg>
-<arg>${PREVIOUS_ROW_COUNT}</arg>
-</arguments>
-<msg timestamp="20190617 15:48:04.024" level="FAIL">No keyword with name 'get connection' found.</msg>
-<status status="FAIL" starttime="20190617 15:48:04.024" endtime="20190617 15:48:04.024"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.022" endtime="20190617 15:48:04.024"></status>
-</kw>
-<kw name="Disconnect" library="SQL_Server" type="teardown">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<msg timestamp="20190617 15:48:04.035" level="FAIL">Maximum limit of started keywords exceeded.</msg>
-<status status="FAIL" starttime="20190617 15:48:04.035" endtime="20190617 15:48:04.035"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.035" endtime="20190617 15:48:04.035"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.035" endtime="20190617 15:48:04.036"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.034" endtime="20190617 15:48:04.036"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.034" endtime="20190617 15:48:04.036"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.034" endtime="20190617 15:48:04.036"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.034" endtime="20190617 15:48:04.036"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.034" endtime="20190617 15:48:04.036"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.033" endtime="20190617 15:48:04.036"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.033" endtime="20190617 15:48:04.036"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.033" endtime="20190617 15:48:04.036"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.033" endtime="20190617 15:48:04.037"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.032" endtime="20190617 15:48:04.037"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.032" endtime="20190617 15:48:04.037"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.031" endtime="20190617 15:48:04.037"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.031" endtime="20190617 15:48:04.038"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.030" endtime="20190617 15:48:04.038"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.029" endtime="20190617 15:48:04.038"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.029" endtime="20190617 15:48:04.038"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.029" endtime="20190617 15:48:04.038"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.029" endtime="20190617 15:48:04.038"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.028" endtime="20190617 15:48:04.038"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.028" endtime="20190617 15:48:04.039"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.028" endtime="20190617 15:48:04.039"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.028" endtime="20190617 15:48:04.039"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.028" endtime="20190617 15:48:04.039"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.027" endtime="20190617 15:48:04.039"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.027" endtime="20190617 15:48:04.039"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.027" endtime="20190617 15:48:04.039"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.027" endtime="20190617 15:48:04.039"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.026" endtime="20190617 15:48:04.040"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.026" endtime="20190617 15:48:04.040"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.026" endtime="20190617 15:48:04.040"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.026" endtime="20190617 15:48:04.040"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.026" endtime="20190617 15:48:04.040"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.025" endtime="20190617 15:48:04.040"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.025" endtime="20190617 15:48:04.040"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.025" endtime="20190617 15:48:04.040"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.025" endtime="20190617 15:48:04.040"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.025" endtime="20190617 15:48:04.040"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.024" endtime="20190617 15:48:04.041">Maximum limit of started keywords exceeded.</status>
-</kw>
-<tags>
-<tag>SqlServerDB</tag>
-</tags>
-<status status="FAIL" starttime="20190617 15:48:04.022" endtime="20190617 15:48:04.041" critical="yes">Setup failed:
-No keyword with name 'get connection' found.
-
-Also teardown failed:
-Maximum limit of started keywords exceeded.</status>
-</test>
-<test id="s1-t3" name="Log All Rows">
-<kw name="Connect" library="SQL_Server" type="setup">
-<kw name="get connection">
-<arguments>
-<arg>pymssql ${DB_NAME}</arg>
-<arg>${DB_USER_NAME}</arg>
-<arg>${DB_PASSWORD}</arg>
-<arg>${DB_HOST}</arg>
-<arg>${DB_PORT}</arg>
-<arg>${PREVIOUS_ROW_COUNT}</arg>
-</arguments>
-<msg timestamp="20190617 15:48:04.045" level="FAIL">No keyword with name 'get connection' found.</msg>
-<status status="FAIL" starttime="20190617 15:48:04.044" endtime="20190617 15:48:04.045"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.043" endtime="20190617 15:48:04.045"></status>
-</kw>
-<kw name="Disconnect" library="SQL_Server" type="teardown">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<kw name="Disconnect" library="SQL_Server">
-<msg timestamp="20190617 15:48:04.057" level="FAIL">Maximum limit of started keywords exceeded.</msg>
-<status status="FAIL" starttime="20190617 15:48:04.057" endtime="20190617 15:48:04.057"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.056" endtime="20190617 15:48:04.057"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.056" endtime="20190617 15:48:04.057"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.056" endtime="20190617 15:48:04.058"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.056" endtime="20190617 15:48:04.058"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.055" endtime="20190617 15:48:04.058"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.055" endtime="20190617 15:48:04.058"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.055" endtime="20190617 15:48:04.058"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.053" endtime="20190617 15:48:04.058"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.053" endtime="20190617 15:48:04.058"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.053" endtime="20190617 15:48:04.059"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.053" endtime="20190617 15:48:04.059"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.052" endtime="20190617 15:48:04.059"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.052" endtime="20190617 15:48:04.059"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.052" endtime="20190617 15:48:04.059"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.051" endtime="20190617 15:48:04.059"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.051" endtime="20190617 15:48:04.059"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.051" endtime="20190617 15:48:04.059"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.051" endtime="20190617 15:48:04.060"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.051" endtime="20190617 15:48:04.060"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.050" endtime="20190617 15:48:04.060"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.050" endtime="20190617 15:48:04.060"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.050" endtime="20190617 15:48:04.060"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.050" endtime="20190617 15:48:04.060"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.049" endtime="20190617 15:48:04.060"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.049" endtime="20190617 15:48:04.060"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.049" endtime="20190617 15:48:04.060"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.049" endtime="20190617 15:48:04.060"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.049" endtime="20190617 15:48:04.060"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.048" endtime="20190617 15:48:04.061"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.048" endtime="20190617 15:48:04.061"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.047" endtime="20190617 15:48:04.061"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.047" endtime="20190617 15:48:04.061"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.047" endtime="20190617 15:48:04.061"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.046" endtime="20190617 15:48:04.061"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.046" endtime="20190617 15:48:04.061"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.046" endtime="20190617 15:48:04.061"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.046" endtime="20190617 15:48:04.062"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.045" endtime="20190617 15:48:04.062"></status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.045" endtime="20190617 15:48:04.062">Maximum limit of started keywords exceeded.</status>
-</kw>
-<status status="FAIL" starttime="20190617 15:48:04.042" endtime="20190617 15:48:04.062" critical="yes">Setup failed:
-No keyword with name 'get connection' found.
-
-Also teardown failed:
-Maximum limit of started keywords exceeded.</status>
-</test>
-<doc>theses are some SQL Server Database tests</doc>
-<status status="FAIL" starttime="20190617 15:48:03.944" endtime="20190617 15:48:04.064"></status>
+<doc>This is my first test suite!!</doc>
+<status status="FAIL" starttime="20190618 11:34:21.853" endtime="20190618 11:34:21.914"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="0" fail="3">Critical Tests</stat>
-<stat pass="0" fail="3">All Tests</stat>
+<stat pass="0" fail="2">Critical Tests</stat>
+<stat pass="0" fail="2">All Tests</stat>
 </total>
 <tag>
-<stat pass="0" fail="2">SQLServerDB</stat>
+<stat pass="0" fail="1">Smoke</stat>
 </tag>
 <suite>
-<stat pass="0" fail="3" id="s1" name="SQL Server Tests">SQL Server Tests</stat>
+<stat pass="0" fail="2" id="s1" name="Locators">Locators</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20190617 15:48:03.937" level="WARN">Collapsing consecutive whitespace during parsing is deprecated. Fix ' #robot -d results tests' in file 'C:\development\robot-scripts\firstproject_Main_clone\tests\SQL_Server_Tests.robot' on line 8.</msg>
-<msg timestamp="20190617 15:48:03.976" level="ERROR">Error in file 'C:\development\robot-scripts\firstproject_Main_clone\Resources\DB\SQL_Server.robot': Importing test library 'DatabaseLibrary' failed: ModuleNotFoundError: No module named 'DatabaseLibrary'
+<msg timestamp="20190618 11:34:21.884" level="ERROR">Error in file 'C:\development\robot-scripts\firstproject_Main_clone\Resources\Amazon.robot': Importing test library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
 Traceback (most recent call last):
   None
 PYTHONPATH:
-  C:\Users\Claudio\AppData\Local\Programs\Python\Python36\Scripts\robot.exe
-  c:\users\claudio\appdata\local\programs\python\python36\python36.zip
-  c:\users\claudio\appdata\local\programs\python\python36\DLLs
-  c:\users\claudio\appdata\local\programs\python\python36\lib
-  c:\users\claudio\appdata\local\programs\python\python36
-  c:\users\claudio\appdata\local\programs\python\python36\lib\site-packages
-  c:\users\claudio\appdata\local\programs\python\python36\lib\site-packages\win32
-  c:\users\claudio\appdata\local\programs\python\python36\lib\site-packages\win32\lib
-  c:\users\claudio\appdata\local\programs\python\python36\lib\site-packages\Pythonwin</msg>
-<msg timestamp="20190617 15:48:03.979" level="ERROR">Error in file 'C:\development\robot-scripts\firstproject_Main_clone\Resources\DB\SQL_Server.robot': Importing test library 'Strings' failed: ModuleNotFoundError: No module named 'Strings'
+  C:\Users\Claudio\AppData\Local\Programs\Python\Python37\Scripts\robot.exe
+  c:\users\claudio\appdata\local\programs\python\python37\python37.zip
+  c:\users\claudio\appdata\local\programs\python\python37\DLLs
+  c:\users\claudio\appdata\local\programs\python\python37\lib
+  c:\users\claudio\appdata\local\programs\python\python37
+  c:\users\claudio\appdata\local\programs\python\python37\lib\site-packages</msg>
+<msg timestamp="20190618 11:34:21.886" level="ERROR">Error in file 'C:\development\robot-scripts\firstproject_Main_clone\Resources\Amazon.robot': Importing test library '../Libraries/MycustomLibrary' failed: ModuleNotFoundError: No module named '.'
 Traceback (most recent call last):
   None
 PYTHONPATH:
-  C:\Users\Claudio\AppData\Local\Programs\Python\Python36\Scripts\robot.exe
-  c:\users\claudio\appdata\local\programs\python\python36\python36.zip
-  c:\users\claudio\appdata\local\programs\python\python36\DLLs
-  c:\users\claudio\appdata\local\programs\python\python36\lib
-  c:\users\claudio\appdata\local\programs\python\python36
-  c:\users\claudio\appdata\local\programs\python\python36\lib\site-packages
-  c:\users\claudio\appdata\local\programs\python\python36\lib\site-packages\win32
-  c:\users\claudio\appdata\local\programs\python\python36\lib\site-packages\win32\lib
-  c:\users\claudio\appdata\local\programs\python\python36\lib\site-packages\Pythonwin</msg>
+  C:\Users\Claudio\AppData\Local\Programs\Python\Python37\Scripts\robot.exe
+  c:\users\claudio\appdata\local\programs\python\python37\python37.zip
+  c:\users\claudio\appdata\local\programs\python\python37\DLLs
+  c:\users\claudio\appdata\local\programs\python\python37\lib
+  c:\users\claudio\appdata\local\programs\python\python37
+  c:\users\claudio\appdata\local\programs\python\python37\lib\site-packages</msg>
+<msg timestamp="20190618 11:34:21.893" level="ERROR">Error in file 'C:\development\robot-scripts\firstproject_Main_clone\Resources\Common.robot': Importing test library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\Claudio\AppData\Local\Programs\Python\Python37\Scripts\robot.exe
+  c:\users\claudio\appdata\local\programs\python\python37\python37.zip
+  c:\users\claudio\appdata\local\programs\python\python37\DLLs
+  c:\users\claudio\appdata\local\programs\python\python37\lib
+  c:\users\claudio\appdata\local\programs\python\python37
+  c:\users\claudio\appdata\local\programs\python\python37\lib\site-packages</msg>
+<msg timestamp="20190618 11:34:21.897" level="ERROR">Error in file 'C:\development\robot-scripts\firstproject_Main_clone\Resources\PO\LandingPage.robot': Importing test library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\Claudio\AppData\Local\Programs\Python\Python37\Scripts\robot.exe
+  c:\users\claudio\appdata\local\programs\python\python37\python37.zip
+  c:\users\claudio\appdata\local\programs\python\python37\DLLs
+  c:\users\claudio\appdata\local\programs\python\python37\lib
+  c:\users\claudio\appdata\local\programs\python\python37
+  c:\users\claudio\appdata\local\programs\python\python37\lib\site-packages</msg>
 </errors>
 </robot>
