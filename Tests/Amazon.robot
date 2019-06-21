@@ -10,6 +10,7 @@ User must sign in to check out
     [Documentation]  This is some basic info about the test
     [Tags]  Smoke
     open browser  http://www.amazon.co.uk  firefox
+    maximize browser window
     wait until page contains  Vouchers
     input text  name=field-keywords  Ferrari 458
     click button  xpath=/html/body/div[1]/header/div/div[1]/div[3]/div/form/div[2]/div/input

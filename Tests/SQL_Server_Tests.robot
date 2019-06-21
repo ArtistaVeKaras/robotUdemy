@@ -6,16 +6,16 @@ Test Teardown  SQL_Server.Disconnect
 
 #ways to run the script:
 #robot -d results tests
+#robot -d results/database_tests tests/sql_server_tests.robot
 
 *** Variables ***
 
-
 *** Test Cases ***
-Inset a Record
+Insert a Record
    [Tags]  SQLServerDB
    SQL_Server.Save Current Row Count
    SQL_Server.Get Input Data
-   SQL_Server.Inset Record
+   SQL_Server.Insert Record
    SQL_Server.Verify New Record Added
 
 Verify Insert Contains Correct Input Data

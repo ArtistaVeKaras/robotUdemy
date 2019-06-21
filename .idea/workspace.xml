@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://C:/" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="67cbe420-72a6-4ded-b40c-7f0b8aa0d5ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Resources/API/github.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dic/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dic/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dic/resources/PO/Landing.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dic/resources/PO/Register.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dic/resources/PO/TopNav.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../robot_database_connection/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../robot_database_connection/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../firstproject/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../firstproject/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../firstproject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../firstproject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/firstproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/firstproject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/DB/MySql.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/DB/MySql.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libraries/MyCustomLibrary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/MyCustomLibrary.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/DB/SQL_Server.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/DB/SQL_Server.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Results/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../robotframeworktest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../robotframeworktest/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,13 +30,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Resources/DB/SQL_Server.robot">
+        <entry file="file://$PROJECT_DIR$/Libraries/MyCustomLibrary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#75#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="52">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -44,6 +49,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -63,7 +69,6 @@
         <option value="$PROJECT_DIR$/Tests/Product2/Web/FeatureTwo.robot" />
         <option value="$PROJECT_DIR$/Tests/Product1/APIONE/FeatureTwo.robot" />
         <option value="$PROJECT_DIR$/Tests/Product1/APIONE/FeatureOne.robot" />
-        <option value="$PROJECT_DIR$/Tests/Amazon.robot" />
         <option value="$PROJECT_DIR$/Tests/demo.robot" />
         <option value="$PROJECT_DIR$/Resources/Common.robot" />
         <option value="$PROJECT_DIR$/Tests/gherkin.robot" />
@@ -72,23 +77,31 @@
         <option value="$PROJECT_DIR$/Tests/dfasdf.robot" />
         <option value="$PROJECT_DIR$/Tests/MySQL_Testss.robot" />
         <option value="$PROJECT_DIR$/Resources/SQL_Server.robot" />
-        <option value="$PROJECT_DIR$/Tests/SQL_Server_Tests.robot" />
         <option value="$PROJECT_DIR$/Tests/API_Tests.robot" />
         <option value="$PROJECT_DIR$/Resources/API/github.robot" />
         <option value="$PROJECT_DIR$/Tests/variables.robot" />
         <option value="$PROJECT_DIR$/MyCustomLibrary/MyMethods.py" />
-        <option value="$PROJECT_DIR$/Libraries/MyCustomLibrary.py" />
         <option value="$PROJECT_DIR$/Resources/Amazon.robot" />
-        <option value="$PROJECT_DIR$/Tests/Locators.robot" />
         <option value="$PROJECT_DIR$/Resources/DB/MySql.robot" />
+        <option value="$PROJECT_DIR$/Tests/Locators.robot" />
         <option value="$PROJECT_DIR$/Tests/MySQL_Tests.robot" />
+        <option value="$PROJECT_DIR$/Tests/Amazon.robot" />
+        <option value="$PROJECT_DIR$/Tests/SQL_Server_Tests.robot" />
+        <option value="$PROJECT_DIR$/../testtLibraries/Resources/DB/SQL_Server.robot" />
         <option value="$PROJECT_DIR$/Resources/DB/SQL_Server.robot" />
+        <option value="$PROJECT_DIR$/../dic/resources/PO/TopNav.robot" />
+        <option value="$PROJECT_DIR$/../dic/resources/PO/Landing.robot" />
+        <option value="$PROJECT_DIR$/../dic/resources/Common.robot" />
+        <option value="$PROJECT_DIR$/../dic/tests/IMB_Tests.robot" />
+        <option value="$PROJECT_DIR$/../dic/resources/ImbApp.robot" />
+        <option value="$PROJECT_DIR$/../dic/resources/PO/Register.robot" />
+        <option value="$PROJECT_DIR$/Libraries/MyCustomLibrary.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
+    <option name="x" value="1299" />
+    <option name="y" value="469" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -97,9 +110,25 @@
   </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <compactDirectories Scope="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="firstproject_Main_clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\development\robot-scripts\dic" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="firstproject_Main_clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\development\robot-scripts\firstproject_Main_clone" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,39 +161,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="firstproject_Main_clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="firstproject_Main_clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="firstproject_Main_clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="DB" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="firstproject_Main_clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Tests" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="directory&#10;repository" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Programs/Python/Python37/python.exe" />
-    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
     <property name="settings.editor.splitter.proportion" value="0.3713911" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -177,11 +180,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\development\robot-scripts\dic\resources\PO" />
       <recent name="C:\development\robot-scripts\firstproject_Main_clone\Results\web" />
       <recent name="C:\development\robot-scripts\firstproject\Resources\DB" />
       <recent name="C:\development\robot-scripts\firstproject\Tests\Product2" />
       <recent name="C:\development\robot-scripts\firstproject" />
-      <recent name="C:\development\robot-scripts\firstproject\Tests\Product1\APIONE" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -214,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560850992841</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding all the reaming files___for the third time">
+      <created>1560859587669</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560859587669</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -228,41 +238,40 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14791666" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32962963" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.33333334" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.46203703" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947917" visible="true" weight="0.36481482" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005208" side_tool="true" weight="0.36481482" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" x="2726" y="14" width="308" height="1052" id="Project" order="1" visible="true" weight="0.259375" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" x="1974" y="265" width="1697" height="812" id="Terminal" order="0" sideWeight="0.49895832" visible="true" weight="0.46863118" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50104165" side_tool="true" weight="0.38212928" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Python Console" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32962963" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.34410647" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.33333334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21041666" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" x="1974" y="265" width="1697" height="812" id="Terminal" order="0" sideWeight="0.49947917" weight="0.38321537" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5005208" side_tool="true" weight="0.36481482" />
+      <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Python Console" order="3" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32962963" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.46203703" />
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.33333334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -321,16 +330,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="adding all the reaming files" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding all the reaming files" />
+    <MESSAGE value="adding all the reaming files___for the third time" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding all the reaming files___for the third time" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Resources/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Results/selenium-screenshot-1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/Product1/Web/FeatureOne.robot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -521,13 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Libraries/MyCustomLibrary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/PO/LandingPage.robot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -540,39 +538,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/Locators.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Amazon.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/Amazon.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="494">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/MySQL_Tests.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="130">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/SQL_Server_Tests.robot">
+    <entry file="file://$PROJECT_DIR$/Resources/Amazon.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#186#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="416">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Amazon.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -583,13 +571,140 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/robot/libraries/BuiltIn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="1457" column="8" selection-start-line="1457" selection-start-column="8" selection-end-line="1457" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/DatabaseLibrary/query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="296" column="8" selection-start-line="296" selection-start-column="8" selection-end-line="296" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/SQL_Server_Tests.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../testtLibraries/Tests/SQL_Server_Tests.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/DatabaseLibrary/assertion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../testtLibraries/Resources/DB/SQL_Server.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/DB/SQL_Server.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        <state relative-caret-position="468">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
-            <element signature="e#0#75#0" expanded="true" />
+            <element signature="e#0#76#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dictionaries/resources/Landing.robot" />
+    <entry file="file://$PROJECT_DIR$/../dictionaries/resources/PO/Register.robot" />
+    <entry file="file://$PROJECT_DIR$/../dictionaries/tests/IMB_Tests.robot" />
+    <entry file="file://$PROJECT_DIR$/../dic/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dic/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dic/resources/PO/TopNav.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dic/resources/Common.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dic/resources/PO/Landing.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dic/resources/ImbApp.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dic/resources/PO/Register.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dic/tests/IMB_Tests.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/MyCustomLibrary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>

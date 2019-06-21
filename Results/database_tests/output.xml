@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.3 on win32)" generated="20190619 10:03:03.001" rpa="false">
+<suite id="s1" name="Sql Server Tests" source="C:\development\robot-scripts\firstproject_Main_clone\tests\sql_server_tests.robot">
+<test id="s1-t1" name="Insert a Record">
+<kw name="Connect" library="SQL_Server" type="setup">
+<kw name="Connect To Database" library="DatabaseLibrary">
+<doc>Loads the DB API 2.0 module given `dbapiModuleName` then uses it to
+connect to the database using `dbName`, `dbUsername`, and `dbPassword`.</doc>
+<arguments>
+<arg>pymssql ${DB_NAME} ${DB_USER_NAME} ${DB_PASSWORD} ${DB_HOST} ${DB_PORT}</arg>
+</arguments>
+<msg timestamp="20190619 10:03:03.055" level="FAIL">NoSectionError: No section: 'default'</msg>
+<status status="FAIL" starttime="20190619 10:03:03.053" endtime="20190619 10:03:03.055"></status>
+</kw>
+<status status="FAIL" starttime="20190619 10:03:03.053" endtime="20190619 10:03:03.055"></status>
+</kw>
+<kw name="Disconnect" library="SQL_Server" type="teardown">
+<kw name="Disconnect From Database" library="DatabaseLibrary">
+<doc>Disconnects from the database.</doc>
+<msg timestamp="20190619 10:03:03.056" level="INFO">Executing : Disconnect From Database</msg>
+<msg timestamp="20190619 10:03:03.057" level="FAIL">AttributeError: 'NoneType' object has no attribute 'close'</msg>
+<status status="FAIL" starttime="20190619 10:03:03.056" endtime="20190619 10:03:03.057"></status>
+</kw>
+<status status="FAIL" starttime="20190619 10:03:03.056" endtime="20190619 10:03:03.057">AttributeError: 'NoneType' object has no attribute 'close'</status>
+</kw>
+<tags>
+<tag>SQLServerDB</tag>
+</tags>
+<status status="FAIL" starttime="20190619 10:03:03.053" endtime="20190619 10:03:03.057" critical="yes">Setup failed:
+NoSectionError: No section: 'default'
+
+Also teardown failed:
+AttributeError: 'NoneType' object has no attribute 'close'</status>
+</test>
+<test id="s1-t2" name="Verify Insert Contains Correct Input Data">
+<kw name="Connect" library="SQL_Server" type="setup">
+<kw name="Connect To Database" library="DatabaseLibrary">
+<doc>Loads the DB API 2.0 module given `dbapiModuleName` then uses it to
+connect to the database using `dbName`, `dbUsername`, and `dbPassword`.</doc>
+<arguments>
+<arg>pymssql ${DB_NAME} ${DB_USER_NAME} ${DB_PASSWORD} ${DB_HOST} ${DB_PORT}</arg>
+</arguments>
+<msg timestamp="20190619 10:03:03.059" level="FAIL">NoSectionError: No section: 'default'</msg>
+<status status="FAIL" starttime="20190619 10:03:03.059" endtime="20190619 10:03:03.059"></status>
+</kw>
+<status status="FAIL" starttime="20190619 10:03:03.058" endtime="20190619 10:03:03.060"></status>
+</kw>
+<kw name="Disconnect" library="SQL_Server" type="teardown">
+<kw name="Disconnect From Database" library="DatabaseLibrary">
+<doc>Disconnects from the database.</doc>
+<msg timestamp="20190619 10:03:03.060" level="INFO">Executing : Disconnect From Database</msg>
+<msg timestamp="20190619 10:03:03.061" level="FAIL">AttributeError: 'NoneType' object has no attribute 'close'</msg>
+<status status="FAIL" starttime="20190619 10:03:03.060" endtime="20190619 10:03:03.061"></status>
+</kw>
+<status status="FAIL" starttime="20190619 10:03:03.060" endtime="20190619 10:03:03.061">AttributeError: 'NoneType' object has no attribute 'close'</status>
+</kw>
+<tags>
+<tag>SqlServerDB</tag>
+</tags>
+<status status="FAIL" starttime="20190619 10:03:03.058" endtime="20190619 10:03:03.061" critical="yes">Setup failed:
+NoSectionError: No section: 'default'
+
+Also teardown failed:
+AttributeError: 'NoneType' object has no attribute 'close'</status>
+</test>
+<test id="s1-t3" name="Log All Rows">
+<kw name="Connect" library="SQL_Server" type="setup">
+<kw name="Connect To Database" library="DatabaseLibrary">
+<doc>Loads the DB API 2.0 module given `dbapiModuleName` then uses it to
+connect to the database using `dbName`, `dbUsername`, and `dbPassword`.</doc>
+<arguments>
+<arg>pymssql ${DB_NAME} ${DB_USER_NAME} ${DB_PASSWORD} ${DB_HOST} ${DB_PORT}</arg>
+</arguments>
+<msg timestamp="20190619 10:03:03.063" level="FAIL">NoSectionError: No section: 'default'</msg>
+<status status="FAIL" starttime="20190619 10:03:03.063" endtime="20190619 10:03:03.064"></status>
+</kw>
+<status status="FAIL" starttime="20190619 10:03:03.062" endtime="20190619 10:03:03.064"></status>
+</kw>
+<kw name="Disconnect" library="SQL_Server" type="teardown">
+<kw name="Disconnect From Database" library="DatabaseLibrary">
+<doc>Disconnects from the database.</doc>
+<msg timestamp="20190619 10:03:03.064" level="INFO">Executing : Disconnect From Database</msg>
+<msg timestamp="20190619 10:03:03.065" level="FAIL">AttributeError: 'NoneType' object has no attribute 'close'</msg>
+<status status="FAIL" starttime="20190619 10:03:03.064" endtime="20190619 10:03:03.065"></status>
+</kw>
+<status status="FAIL" starttime="20190619 10:03:03.064" endtime="20190619 10:03:03.065">AttributeError: 'NoneType' object has no attribute 'close'</status>
+</kw>
+<status status="FAIL" starttime="20190619 10:03:03.062" endtime="20190619 10:03:03.065" critical="yes">Setup failed:
+NoSectionError: No section: 'default'
+
+Also teardown failed:
+AttributeError: 'NoneType' object has no attribute 'close'</status>
+</test>
+<doc>theses are some SQL Server Database tests</doc>
+<status status="FAIL" starttime="20190619 10:03:03.002" endtime="20190619 10:03:03.066"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3">Critical Tests</stat>
+<stat pass="0" fail="3">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="2">SQLServerDB</stat>
+</tag>
+<suite>
+<stat pass="0" fail="3" id="s1" name="Sql Server Tests">Sql Server Tests</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
